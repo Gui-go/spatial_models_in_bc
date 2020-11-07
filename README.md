@@ -1,0 +1,2 @@
+# spatial_models_in_bc
+Spatial models applied in the city of Balneário Camboriú, Santa Catarina. The goal here is to compare, for starters, a traditional Linear Regression, a traditional Linear Regression with the distance to the beach as an independent variable, a Spatial Generalized Regression, a Random Forest, a Random Forest  with the distance to the beach as an independent variable, and a Spatial Random Forest, only for academic and research purpose.
