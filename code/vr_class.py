@@ -57,7 +57,7 @@ class VR:
 
     def uniques(self):
         self.df = self.df.drop_duplicates()
-        logging.info(f'{len(self.df.url.drop_duplicates())} links unicos')
+        logging.info(f'{len(self.df.url.drop_duplicates())} unique links ')
 
     def save(self):
         self.df.to_csv(r'bc_imoveis_filtered_d20201115.csv')
