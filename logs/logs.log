@@ -2975,3 +2975,78 @@
 2020-11-15 02:47:58,733  [connectionpool.py:391]     DEBUG  http://127.0.0.1:52691 "DELETE /session/908719b7-f592-4de7-94f1-bb86d97164f0 HTTP/1.1" 200 14
 2020-11-15 02:47:58,733  [remote_connection.py:440]     DEBUG  Finished Request
 2020-11-15 02:47:58,734  [vr_class.py:83]     INFO   Exiting
+2020-12-16 23:08:49,051  [remote_connection.py:388]     DEBUG  POST http://127.0.0.1:54459/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
+2020-12-16 23:08:49,071  [connectionpool.py:204]     DEBUG  Starting new HTTP connection (1): 127.0.0.1:54459
+2020-12-16 23:08:57,021  [connectionpool.py:391]     DEBUG  http://127.0.0.1:54459 "POST /session HTTP/1.1" 200 703
+2020-12-16 23:08:57,022  [remote_connection.py:440]     DEBUG  Finished Request
+2020-12-16 23:08:57,022  [remote_connection.py:388]     DEBUG  POST http://127.0.0.1:54459/session/9f44fb2d-7b21-4d2b-ad64-9c8472513d48/url {"url": "https://www.vivareal.com.br/venda/santa-catarina/balneario-camboriu/apartamento_residencial/?__vt=lnv:c"}
+2020-12-16 23:09:04,835  [connectionpool.py:391]     DEBUG  http://127.0.0.1:54459 "POST /session/9f44fb2d-7b21-4d2b-ad64-9c8472513d48/url HTTP/1.1" 200 14
+2020-12-16 23:09:04,835  [remote_connection.py:440]     DEBUG  Finished Request
+2020-12-16 23:09:06,837  [vr_class.py:31]     INFO   Class VR created successfully
+2020-12-16 23:09:06,837  [vr_class.py:87]     INFO   Running method .run()
+2020-12-16 23:09:06,837  [remote_connection.py:388]     DEBUG  GET http://127.0.0.1:54459/session/9f44fb2d-7b21-4d2b-ad64-9c8472513d48/source {}
+2020-12-16 23:09:06,887  [connectionpool.py:391]     DEBUG  http://127.0.0.1:54459 "GET /session/9f44fb2d-7b21-4d2b-ad64-9c8472513d48/source HTTP/1.1" 200 944128
+2020-12-16 23:09:06,901  [remote_connection.py:440]     DEBUG  Finished Request
+2020-12-16 23:09:07,233  [vr_class.py:50]     INFO   Page 1 scraped
+2020-12-16 23:09:07,233  [remote_connection.py:388]     DEBUG  POST http://127.0.0.1:54459/session/9f44fb2d-7b21-4d2b-ad64-9c8472513d48/elements {"using": "css selector", "value": ".js-change-page"}
+2020-12-16 23:09:07,250  [connectionpool.py:391]     DEBUG  http://127.0.0.1:54459 "POST /session/9f44fb2d-7b21-4d2b-ad64-9c8472513d48/elements HTTP/1.1" 200 722
+2020-12-16 23:09:07,250  [remote_connection.py:440]     DEBUG  Finished Request
+2020-12-16 23:09:07,251  [remote_connection.py:388]     DEBUG  POST http://127.0.0.1:54459/session/9f44fb2d-7b21-4d2b-ad64-9c8472513d48/element/e3875dc4-9478-4a47-ae2f-cfcb17acc2f2/value {"text": "\ue006", "value": ["\ue006"], "id": "e3875dc4-9478-4a47-ae2f-cfcb17acc2f2"}
+2020-12-16 23:09:07,293  [connectionpool.py:391]     DEBUG  http://127.0.0.1:54459 "POST /session/9f44fb2d-7b21-4d2b-ad64-9c8472513d48/element/e3875dc4-9478-4a47-ae2f-cfcb17acc2f2/value HTTP/1.1" 200 14
+2020-12-16 23:09:07,293  [remote_connection.py:440]     DEBUG  Finished Request
+2020-12-16 23:09:22,308  [vr_class.py:56]     INFO   Next page
+2020-12-16 23:09:22,309  [remote_connection.py:388]     DEBUG  GET http://127.0.0.1:54459/session/9f44fb2d-7b21-4d2b-ad64-9c8472513d48/source {}
+2020-12-16 23:09:22,367  [connectionpool.py:391]     DEBUG  http://127.0.0.1:54459 "GET /session/9f44fb2d-7b21-4d2b-ad64-9c8472513d48/source HTTP/1.1" 200 1037382
+2020-12-16 23:09:22,380  [remote_connection.py:440]     DEBUG  Finished Request
+2020-12-16 23:09:22,610  [vr_class.py:50]     INFO   Page 2 scraped
+2020-12-16 23:09:22,611  [remote_connection.py:388]     DEBUG  POST http://127.0.0.1:54459/session/9f44fb2d-7b21-4d2b-ad64-9c8472513d48/elements {"using": "css selector", "value": ".js-change-page"}
+2020-12-16 23:09:22,617  [connectionpool.py:391]     DEBUG  http://127.0.0.1:54459 "POST /session/9f44fb2d-7b21-4d2b-ad64-9c8472513d48/elements HTTP/1.1" 200 722
+2020-12-16 23:09:22,617  [remote_connection.py:440]     DEBUG  Finished Request
+2020-12-16 23:09:22,617  [remote_connection.py:388]     DEBUG  POST http://127.0.0.1:54459/session/9f44fb2d-7b21-4d2b-ad64-9c8472513d48/element/00450b7e-104b-47ed-8f8c-f716ac247f93/value {"text": "\ue006", "value": ["\ue006"], "id": "00450b7e-104b-47ed-8f8c-f716ac247f93"}
+2020-12-16 23:09:22,639  [connectionpool.py:391]     DEBUG  http://127.0.0.1:54459 "POST /session/9f44fb2d-7b21-4d2b-ad64-9c8472513d48/element/00450b7e-104b-47ed-8f8c-f716ac247f93/value HTTP/1.1" 200 14
+2020-12-16 23:09:22,639  [remote_connection.py:440]     DEBUG  Finished Request
+2020-12-16 23:09:37,652  [vr_class.py:56]     INFO   Next page
+2020-12-16 23:09:37,653  [remote_connection.py:388]     DEBUG  GET http://127.0.0.1:54459/session/9f44fb2d-7b21-4d2b-ad64-9c8472513d48/source {}
+2020-12-16 23:09:37,678  [connectionpool.py:391]     DEBUG  http://127.0.0.1:54459 "GET /session/9f44fb2d-7b21-4d2b-ad64-9c8472513d48/source HTTP/1.1" 500 105
+2020-12-16 23:09:37,678  [remote_connection.py:440]     DEBUG  Finished Request
+2020-12-16 23:16:29,741  [remote_connection.py:388]     DEBUG  POST http://127.0.0.1:54749/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}
+2020-12-16 23:16:29,742  [connectionpool.py:204]     DEBUG  Starting new HTTP connection (1): 127.0.0.1:54749
+2020-12-16 23:16:38,016  [connectionpool.py:391]     DEBUG  http://127.0.0.1:54749 "POST /session HTTP/1.1" 200 703
+2020-12-16 23:16:38,016  [remote_connection.py:440]     DEBUG  Finished Request
+2020-12-16 23:16:38,017  [remote_connection.py:388]     DEBUG  POST http://127.0.0.1:54749/session/31eb74e9-2e6e-489e-8f19-3f37abb7f4a6/url {"url": "https://www.vivareal.com.br/venda/santa-catarina/balneario-camboriu/apartamento_residencial/?__vt=lnv:c"}
+2020-12-16 23:16:45,859  [connectionpool.py:391]     DEBUG  http://127.0.0.1:54749 "POST /session/31eb74e9-2e6e-489e-8f19-3f37abb7f4a6/url HTTP/1.1" 200 14
+2020-12-16 23:16:45,860  [remote_connection.py:440]     DEBUG  Finished Request
+2020-12-16 23:16:47,861  [vr_class.py:30]     INFO   Class VR created successfully
+2020-12-16 23:16:47,862  [vr_class.py:86]     INFO   Running method .run()
+2020-12-16 23:16:47,862  [remote_connection.py:388]     DEBUG  GET http://127.0.0.1:54749/session/31eb74e9-2e6e-489e-8f19-3f37abb7f4a6/source {}
+2020-12-16 23:16:47,911  [connectionpool.py:391]     DEBUG  http://127.0.0.1:54749 "GET /session/31eb74e9-2e6e-489e-8f19-3f37abb7f4a6/source HTTP/1.1" 200 944307
+2020-12-16 23:16:47,922  [remote_connection.py:440]     DEBUG  Finished Request
+2020-12-16 23:16:48,145  [vr_class.py:49]     INFO   Page 1 scraped
+2020-12-16 23:16:48,145  [remote_connection.py:388]     DEBUG  POST http://127.0.0.1:54749/session/31eb74e9-2e6e-489e-8f19-3f37abb7f4a6/elements {"using": "css selector", "value": ".js-change-page"}
+2020-12-16 23:16:48,156  [connectionpool.py:391]     DEBUG  http://127.0.0.1:54749 "POST /session/31eb74e9-2e6e-489e-8f19-3f37abb7f4a6/elements HTTP/1.1" 200 722
+2020-12-16 23:16:48,156  [remote_connection.py:440]     DEBUG  Finished Request
+2020-12-16 23:16:48,156  [remote_connection.py:388]     DEBUG  POST http://127.0.0.1:54749/session/31eb74e9-2e6e-489e-8f19-3f37abb7f4a6/element/23959ca0-c72d-4cb1-9d77-79e3e3598d6f/value {"text": "\ue006", "value": ["\ue006"], "id": "23959ca0-c72d-4cb1-9d77-79e3e3598d6f"}
+2020-12-16 23:16:48,183  [connectionpool.py:391]     DEBUG  http://127.0.0.1:54749 "POST /session/31eb74e9-2e6e-489e-8f19-3f37abb7f4a6/element/23959ca0-c72d-4cb1-9d77-79e3e3598d6f/value HTTP/1.1" 200 14
+2020-12-16 23:16:48,184  [remote_connection.py:440]     DEBUG  Finished Request
+2020-12-16 23:17:03,196  [vr_class.py:55]     INFO   Next page
+2020-12-16 23:17:03,197  [remote_connection.py:388]     DEBUG  GET http://127.0.0.1:54749/session/31eb74e9-2e6e-489e-8f19-3f37abb7f4a6/source {}
+2020-12-16 23:17:03,272  [connectionpool.py:391]     DEBUG  http://127.0.0.1:54749 "GET /session/31eb74e9-2e6e-489e-8f19-3f37abb7f4a6/source HTTP/1.1" 200 1040913
+2020-12-16 23:17:03,283  [remote_connection.py:440]     DEBUG  Finished Request
+2020-12-16 23:17:03,506  [vr_class.py:49]     INFO   Page 2 scraped
+2020-12-16 23:17:03,507  [remote_connection.py:388]     DEBUG  POST http://127.0.0.1:54749/session/31eb74e9-2e6e-489e-8f19-3f37abb7f4a6/elements {"using": "css selector", "value": ".js-change-page"}
+2020-12-16 23:17:03,514  [connectionpool.py:391]     DEBUG  http://127.0.0.1:54749 "POST /session/31eb74e9-2e6e-489e-8f19-3f37abb7f4a6/elements HTTP/1.1" 200 722
+2020-12-16 23:17:03,514  [remote_connection.py:440]     DEBUG  Finished Request
+2020-12-16 23:17:03,514  [remote_connection.py:388]     DEBUG  POST http://127.0.0.1:54749/session/31eb74e9-2e6e-489e-8f19-3f37abb7f4a6/element/dbb4e96c-670b-4a9d-b53c-9e285dd1791f/value {"text": "\ue006", "value": ["\ue006"], "id": "dbb4e96c-670b-4a9d-b53c-9e285dd1791f"}
+2020-12-16 23:17:03,537  [connectionpool.py:391]     DEBUG  http://127.0.0.1:54749 "POST /session/31eb74e9-2e6e-489e-8f19-3f37abb7f4a6/element/dbb4e96c-670b-4a9d-b53c-9e285dd1791f/value HTTP/1.1" 200 14
+2020-12-16 23:17:03,537  [remote_connection.py:440]     DEBUG  Finished Request
+2020-12-16 23:17:18,552  [vr_class.py:55]     INFO   Next page
+2020-12-16 23:17:18,552  [remote_connection.py:388]     DEBUG  GET http://127.0.0.1:54749/session/31eb74e9-2e6e-489e-8f19-3f37abb7f4a6/source {}
+2020-12-16 23:17:18,612  [connectionpool.py:391]     DEBUG  http://127.0.0.1:54749 "GET /session/31eb74e9-2e6e-489e-8f19-3f37abb7f4a6/source HTTP/1.1" 200 1042406
+2020-12-16 23:17:18,622  [remote_connection.py:440]     DEBUG  Finished Request
+2020-12-16 23:17:18,878  [vr_class.py:49]     INFO   Page 3 scraped
+2020-12-16 23:17:18,878  [remote_connection.py:388]     DEBUG  POST http://127.0.0.1:54749/session/31eb74e9-2e6e-489e-8f19-3f37abb7f4a6/elements {"using": "css selector", "value": ".js-change-page"}
+2020-12-16 23:17:18,883  [connectionpool.py:391]     DEBUG  http://127.0.0.1:54749 "POST /session/31eb74e9-2e6e-489e-8f19-3f37abb7f4a6/elements HTTP/1.1" 200 722
+2020-12-16 23:17:18,884  [remote_connection.py:440]     DEBUG  Finished Request
+2020-12-16 23:17:18,884  [remote_connection.py:388]     DEBUG  POST http://127.0.0.1:54749/session/31eb74e9-2e6e-489e-8f19-3f37abb7f4a6/element/7b40961b-7331-48ab-99eb-b37f5f2c20ab/value {"text": "\ue006", "value": ["\ue006"], "id": "7b40961b-7331-48ab-99eb-b37f5f2c20ab"}
+2020-12-16 23:17:18,897  [connectionpool.py:391]     DEBUG  http://127.0.0.1:54749 "POST /session/31eb74e9-2e6e-489e-8f19-3f37abb7f4a6/element/7b40961b-7331-48ab-99eb-b37f5f2c20ab/value HTTP/1.1" 200 14
+2020-12-16 23:17:18,897  [remote_connection.py:440]     DEBUG  Finished Request

@@ -19,9 +19,11 @@ logging.basicConfig(filename='logs/logs.log',
                     format=LOG_FORMAT,
                     level=logging.DEBUG)
 
-primeira_pagina='https://www.vivareal.com.br/venda/santa-catarina/balneario-camboriu/apartamento_residencial/?__vt=lnv:c'
 
 class VR:
+    """
+    Class to scrap Viva Real data
+    """
     def __init__(self, primeira_pagina):
         self.primeira_pagina = primeira_pagina
         self.browser = Firefox()
@@ -57,7 +59,7 @@ class VR:
 
     def uniques(self):
         self.df = self.df.drop_duplicates()
-        logging.info(f'{len(self.df.url.drop_duplicates())} links unicos')
+        logging.info(f'{len(self.df.url.drop_duplicates())} unique links ')
 
     def save(self):
         self.df.to_csv(r'bc_imoveis_filtered_d20201115.csv')
@@ -86,15 +88,13 @@ class VR:
     def run(self, qpages):
         logging.info('Running method .run()')
         for page in range(1, qpages):
-            vr.scraper(page)
-            vr.next_page()
-        vr.adddate()
-        vr.uniques()
-        vr.filter()
-        vr.shape()
-        vr.save()
-        vr.exit()
+            self.scraper(page)
+            self.next_page()
+        self.adddate()
+        self.uniques()
+        self.filter()
+        self.shape()
+        self.save()
+        self.exit()
 
-vr = VR(primeira_pagina)
-vr.run(270)
 
