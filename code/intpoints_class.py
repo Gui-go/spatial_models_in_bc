@@ -90,8 +90,15 @@ class IntPoints:
 
 centroids_bc = pd.read_csv('data/centroids_bc.csv')
 dtLocations = centroids_bc.set_index('hexagon').T.to_dict('list')
-# dtLocations['H001'][1]
-        
+
+# for i, e in enumerate(list(dtLocations.keys())):
+#     it = IntPoints(
+#         lat = dtLocations[list(dtLocations.keys())[i]][1], 
+#         lng = dtLocations[list(dtLocations.keys())[i]][0]
+#     )
+#     it.run()
+#     it.df
+
 
 it = IntPoints(lat=dtLocations['H001'][1], lng=dtLocations['H001'][0])
 it.run()

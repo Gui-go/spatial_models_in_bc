@@ -1,570 +1,777 @@
-2020-12-17 17:15:26,214  [<stdin>:12]     INFO   Class initialized
-2020-12-17 17:15:26,216  [<stdin>:45]     INFO   Searching for Bakery
-2020-12-17 17:15:26,221  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:27,335  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Bakery&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:27,338  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:27,342  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:27,342  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:27,401  [<stdin>:52]     INFO   More 100 points of interest
-2020-12-17 17:15:27,401  [<stdin>:54]     INFO   100 so far
-2020-12-17 17:15:27,401  [<stdin>:45]     INFO   Searching for Bar
-2020-12-17 17:15:27,403  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:28,227  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Bar&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:28,234  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:28,242  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:28,243  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:28,312  [<stdin>:52]     INFO   More 92 points of interest
-2020-12-17 17:15:28,314  [<stdin>:54]     INFO   192 so far
-2020-12-17 17:15:28,314  [<stdin>:45]     INFO   Searching for Bookstore
-2020-12-17 17:15:28,316  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:28,870  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Bookstore&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:28,875  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:28,877  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:28,878  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:28,905  [<stdin>:52]     INFO   More 10 points of interest
-2020-12-17 17:15:28,906  [<stdin>:54]     INFO   202 so far
-2020-12-17 17:15:28,906  [<stdin>:45]     INFO   Searching for Gym
-2020-12-17 17:15:28,908  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:29,794  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Gym&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:29,800  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:29,806  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:29,806  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:29,870  [<stdin>:52]     INFO   More 79 points of interest
-2020-12-17 17:15:29,871  [<stdin>:54]     INFO   281 so far
-2020-12-17 17:15:29,871  [<stdin>:45]     INFO   Searching for Design Studio
-2020-12-17 17:15:29,872  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:30,612  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Design+Studio&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:30,618  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:30,619  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:30,620  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:30,651  [<stdin>:52]     INFO   More 11 points of interest
-2020-12-17 17:15:30,652  [<stdin>:54]     INFO   292 so far
-2020-12-17 17:15:30,652  [<stdin>:45]     INFO   Searching for Shopping Mall
-2020-12-17 17:15:30,653  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:32,353  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Shopping+Mall&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:32,360  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:32,363  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:32,363  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:32,405  [<stdin>:52]     INFO   More 27 points of interest
-2020-12-17 17:15:32,406  [<stdin>:54]     INFO   319 so far
-2020-12-17 17:15:32,406  [<stdin>:45]     INFO   Searching for Lawyer
-2020-12-17 17:15:32,407  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:33,140  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Lawyer&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:33,145  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:33,147  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:33,148  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:33,179  [<stdin>:52]     INFO   More 17 points of interest
-2020-12-17 17:15:33,180  [<stdin>:54]     INFO   336 so far
-2020-12-17 17:15:33,180  [<stdin>:45]     INFO   Searching for Boutique
-2020-12-17 17:15:33,182  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:33,854  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Boutique&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:33,860  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:33,864  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:33,864  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:33,905  [<stdin>:52]     INFO   More 28 points of interest
-2020-12-17 17:15:33,906  [<stdin>:54]     INFO   364 so far
-2020-12-17 17:15:33,906  [<stdin>:45]     INFO   Searching for Shop & Service
-2020-12-17 17:15:33,908  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:34,809  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Shop+%26+Service&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:34,816  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:34,825  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:34,825  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:34,904  [<stdin>:52]     INFO   More 74 points of interest
-2020-12-17 17:15:34,905  [<stdin>:54]     INFO   438 so far
-2020-12-17 17:15:34,906  [<stdin>:45]     INFO   Searching for Factory
-2020-12-17 17:15:34,909  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:35,524  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Factory&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:35,529  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:35,530  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:35,531  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:35,557  [<stdin>:52]     INFO   More 5 points of interest
-2020-12-17 17:15:35,559  [<stdin>:54]     INFO   443 so far
-2020-12-17 17:15:35,559  [<stdin>:45]     INFO   Searching for Clothing
-2020-12-17 17:15:35,561  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:36,448  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Clothing&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:36,453  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:36,457  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:36,458  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:36,508  [<stdin>:52]     INFO   More 44 points of interest
-2020-12-17 17:15:36,509  [<stdin>:54]     INFO   487 so far
-2020-12-17 17:15:36,509  [<stdin>:45]     INFO   Searching for Construction & Landscaping
-2020-12-17 17:15:36,510  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:37,165  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Construction+%26+Landscaping&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:37,172  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:37,174  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:37,175  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:37,213  [<stdin>:52]     INFO   More 32 points of interest
-2020-12-17 17:15:37,214  [<stdin>:54]     INFO   519 so far
-2020-12-17 17:15:37,214  [<stdin>:45]     INFO   Searching for Nail Salon
-2020-12-17 17:15:37,216  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:37,770  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Nail+Salon&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:37,775  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:37,777  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:37,778  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:37,812  [<stdin>:52]     INFO   More 20 points of interest
-2020-12-17 17:15:37,813  [<stdin>:54]     INFO   539 so far
-2020-12-17 17:15:37,813  [<stdin>:45]     INFO   Searching for Airport
-2020-12-17 17:15:37,814  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:38,393  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Airport&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:38,398  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:38,402  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:38,402  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:38,446  [<stdin>:52]     INFO   More 30 points of interest
-2020-12-17 17:15:38,447  [<stdin>:54]     INFO   569 so far
-2020-12-17 17:15:38,447  [<stdin>:45]     INFO   Searching for Market
-2020-12-17 17:15:38,448  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:39,109  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Market&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:39,112  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:39,114  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:39,114  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:39,141  [<stdin>:52]     INFO   More 31 points of interest
-2020-12-17 17:15:39,142  [<stdin>:54]     INFO   600 so far
-2020-12-17 17:15:39,142  [<stdin>:45]     INFO   Searching for Auto Garage
-2020-12-17 17:15:39,143  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:39,709  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Auto+Garage&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:39,717  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:39,719  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:39,720  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:39,760  [<stdin>:52]     INFO   More 29 points of interest
-2020-12-17 17:15:39,761  [<stdin>:54]     INFO   629 so far
-2020-12-17 17:15:39,761  [<stdin>:45]     INFO   Searching for Electronics Store
-2020-12-17 17:15:39,763  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:40,375  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Electronics+Store&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:40,381  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:40,383  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:40,383  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:40,423  [<stdin>:52]     INFO   More 26 points of interest
-2020-12-17 17:15:40,424  [<stdin>:54]     INFO   655 so far
-2020-12-17 17:15:40,424  [<stdin>:45]     INFO   Searching for Bank
-2020-12-17 17:15:40,425  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:41,261  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Bank&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:41,266  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:41,272  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:41,272  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:41,333  [<stdin>:52]     INFO   More 70 points of interest
-2020-12-17 17:15:41,334  [<stdin>:54]     INFO   725 so far
-2020-12-17 17:15:41,334  [<stdin>:45]     INFO   Searching for Comic Shop
-2020-12-17 17:15:41,335  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:41,965  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Comic+Shop&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:41,970  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:41,971  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:41,972  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:41,995  [<stdin>:52]     INFO   More 2 points of interest
-2020-12-17 17:15:41,997  [<stdin>:54]     INFO   727 so far
-2020-12-17 17:15:41,997  [<stdin>:45]     INFO   Searching for Shoe Store
-2020-12-17 17:15:41,999  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:42,692  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Shoe+Store&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:42,698  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:42,701  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:42,702  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:42,733  [<stdin>:52]     INFO   More 28 points of interest
-2020-12-17 17:15:42,734  [<stdin>:54]     INFO   755 so far
-2020-12-17 17:15:42,734  [<stdin>:45]     INFO   Searching for Department Store
-2020-12-17 17:15:42,736  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:43,410  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Department+Store&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:43,416  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:43,421  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:43,421  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:43,461  [<stdin>:52]     INFO   More 28 points of interest
-2020-12-17 17:15:43,462  [<stdin>:54]     INFO   783 so far
-2020-12-17 17:15:43,462  [<stdin>:45]     INFO   Searching for Shop
-2020-12-17 17:15:43,464  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:44,435  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Shop&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:44,441  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:44,447  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:44,448  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:44,511  [<stdin>:52]     INFO   More 74 points of interest
-2020-12-17 17:15:44,512  [<stdin>:54]     INFO   857 so far
-2020-12-17 17:15:44,512  [<stdin>:45]     INFO   Searching for Automotive Shop
-2020-12-17 17:15:44,513  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:45,196  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Automotive+Shop&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:45,204  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:45,207  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:45,208  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:45,249  [<stdin>:52]     INFO   More 33 points of interest
-2020-12-17 17:15:45,250  [<stdin>:54]     INFO   890 so far
-2020-12-17 17:15:45,250  [<stdin>:45]     INFO   Searching for Supermarket
-2020-12-17 17:15:45,251  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:46,482  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Supermarket&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:46,487  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:46,490  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:46,491  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:46,529  [<stdin>:52]     INFO   More 33 points of interest
-2020-12-17 17:15:46,530  [<stdin>:54]     INFO   923 so far
-2020-12-17 17:15:46,530  [<stdin>:45]     INFO   Searching for Furniture / Home Store
-2020-12-17 17:15:46,532  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:47,302  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Furniture+%2F+Home+Store&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:47,308  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:47,311  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:47,312  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:47,357  [<stdin>:52]     INFO   More 41 points of interest
-2020-12-17 17:15:47,358  [<stdin>:54]     INFO   964 so far
-2020-12-17 17:15:47,358  [<stdin>:45]     INFO   Searching for Insurance Office
-2020-12-17 17:15:47,360  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:47,897  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Insurance+Office&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:47,929  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:47,930  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:47,931  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:47,955  [<stdin>:52]     INFO   More 4 points of interest
-2020-12-17 17:15:47,957  [<stdin>:54]     INFO   968 so far
-2020-12-17 17:15:47,957  [<stdin>:45]     INFO   Searching for Office
-2020-12-17 17:15:47,959  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:48,566  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Office&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:48,570  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:48,572  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:48,572  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:48,598  [<stdin>:52]     INFO   More 4 points of interest
-2020-12-17 17:15:48,600  [<stdin>:54]     INFO   972 so far
-2020-12-17 17:15:48,600  [<stdin>:45]     INFO   Searching for Health & Beauty Service
-2020-12-17 17:15:48,602  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:49,247  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Health+%26+Beauty+Service&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:49,253  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:49,256  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:49,257  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:49,294  [<stdin>:52]     INFO   More 21 points of interest
-2020-12-17 17:15:49,294  [<stdin>:54]     INFO   993 so far
-2020-12-17 17:15:49,295  [<stdin>:45]     INFO   Searching for Men's Store
-2020-12-17 17:15:49,296  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:50,065  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Men%27s+Store&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:50,070  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:50,072  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:50,072  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:50,104  [<stdin>:52]     INFO   More 10 points of interest
-2020-12-17 17:15:50,106  [<stdin>:54]     INFO   1003 so far
-2020-12-17 17:15:50,106  [<stdin>:45]     INFO   Searching for Public Art
-2020-12-17 17:15:50,107  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:50,782  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Public+Art&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:50,787  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:50,789  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:50,789  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:50,817  [<stdin>:52]     INFO   More 7 points of interest
-2020-12-17 17:15:50,819  [<stdin>:54]     INFO   1010 so far
-2020-12-17 17:15:50,819  [<stdin>:45]     INFO   Searching for Pharmacy
-2020-12-17 17:15:50,821  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:51,601  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Pharmacy&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:51,607  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:51,613  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:51,613  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:51,670  [<stdin>:52]     INFO   More 59 points of interest
-2020-12-17 17:15:51,670  [<stdin>:54]     INFO   1069 so far
-2020-12-17 17:15:51,671  [<stdin>:45]     INFO   Searching for Motorcycle Shop
-2020-12-17 17:15:51,672  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:52,319  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Motorcycle+Shop&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:52,324  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:52,326  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:52,327  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:52,365  [<stdin>:52]     INFO   More 24 points of interest
-2020-12-17 17:15:52,366  [<stdin>:54]     INFO   1093 so far
-2020-12-17 17:15:52,366  [<stdin>:45]     INFO   Searching for Auto Workshop
-2020-12-17 17:15:52,368  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:52,933  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Auto+Workshop&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:52,939  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:52,940  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:52,941  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:52,965  [<stdin>:52]     INFO   More 4 points of interest
-2020-12-17 17:15:52,967  [<stdin>:54]     INFO   1097 so far
-2020-12-17 17:15:52,967  [<stdin>:45]     INFO   Searching for University
-2020-12-17 17:15:52,970  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:54,044  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=University&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:54,051  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:54,054  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:54,054  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:54,076  [<stdin>:52]     INFO   More 18 points of interest
-2020-12-17 17:15:54,077  [<stdin>:54]     INFO   1115 so far
-2020-12-17 17:15:54,077  [<stdin>:45]     INFO   Searching for Convenience Store
-2020-12-17 17:15:54,079  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:55,190  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Convenience+Store&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:55,197  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:55,201  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:55,202  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:55,241  [<stdin>:52]     INFO   More 37 points of interest
-2020-12-17 17:15:55,242  [<stdin>:54]     INFO   1152 so far
-2020-12-17 17:15:55,242  [<stdin>:45]     INFO   Searching for Drugstore
-2020-12-17 17:15:55,244  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:56,014  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Drugstore&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:56,020  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:56,026  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:56,027  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:56,083  [<stdin>:52]     INFO   More 61 points of interest
-2020-12-17 17:15:56,084  [<stdin>:54]     INFO   1213 so far
-2020-12-17 17:15:56,084  [<stdin>:45]     INFO   Searching for Hospital
-2020-12-17 17:15:56,085  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:56,725  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Hospital&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:56,731  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:56,733  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:56,734  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:56,769  [<stdin>:52]     INFO   More 24 points of interest
-2020-12-17 17:15:56,770  [<stdin>:54]     INFO   1237 so far
-2020-12-17 17:15:56,770  [<stdin>:45]     INFO   Searching for Clothing Store
-2020-12-17 17:15:56,771  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:57,541  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Clothing+Store&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:57,547  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:57,552  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:57,553  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:57,603  [<stdin>:52]     INFO   More 44 points of interest
-2020-12-17 17:15:57,604  [<stdin>:54]     INFO   1281 so far
-2020-12-17 17:15:57,604  [<stdin>:45]     INFO   Searching for Fruit & Vegetable Store
-2020-12-17 17:15:57,606  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:58,359  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Fruit+%26+Vegetable+Store&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:58,366  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:58,367  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:58,368  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:58,388  [<stdin>:52]     INFO   More 4 points of interest
-2020-12-17 17:15:58,390  [<stdin>:54]     INFO   1285 so far
-2020-12-17 17:15:58,390  [<stdin>:45]     INFO   Searching for School
-2020-12-17 17:15:58,392  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:59,162  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=School&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:59,167  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:59,172  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:59,173  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:59,233  [<stdin>:52]     INFO   More 66 points of interest
-2020-12-17 17:15:59,233  [<stdin>:54]     INFO   1351 so far
-2020-12-17 17:15:59,234  [<stdin>:45]     INFO   Searching for Stadium
-2020-12-17 17:15:59,235  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:15:59,916  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Stadium&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:15:59,922  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:15:59,924  [<stdin>:28]     INFO   Got data
-2020-12-17 17:15:59,925  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:15:59,954  [<stdin>:52]     INFO   More 19 points of interest
-2020-12-17 17:15:59,955  [<stdin>:54]     INFO   1370 so far
-2020-12-17 17:15:59,955  [<stdin>:45]     INFO   Searching for Arts & Entertainment
-2020-12-17 17:15:59,957  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:00,533  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Arts+%26+Entertainment&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:00,535  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:00,535  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:00,536  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:00,547  [<stdin>:52]     INFO   More 6 points of interest
-2020-12-17 17:16:00,548  [<stdin>:54]     INFO   1376 so far
-2020-12-17 17:16:00,548  [<stdin>:45]     INFO   Searching for Accessories Store
-2020-12-17 17:16:00,550  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:01,079  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Accessories+Store&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:01,083  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:01,084  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:01,084  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:01,093  [<stdin>:52]     INFO   More 9 points of interest
-2020-12-17 17:16:01,094  [<stdin>:54]     INFO   1385 so far
-2020-12-17 17:16:01,094  [<stdin>:45]     INFO   Searching for Tattoo Parlor
-2020-12-17 17:16:01,096  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:01,829  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Tattoo+Parlor&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:01,831  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:01,832  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:01,832  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:01,846  [<stdin>:52]     INFO   More 12 points of interest
-2020-12-17 17:16:01,848  [<stdin>:54]     INFO   1397 so far
-2020-12-17 17:16:01,848  [<stdin>:45]     INFO   Searching for Newsstand
-2020-12-17 17:16:01,850  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:02,382  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Newsstand&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:02,384  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:02,385  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:02,385  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:02,395  [<stdin>:52]     INFO   More 5 points of interest
-2020-12-17 17:16:02,397  [<stdin>:54]     INFO   1402 so far
-2020-12-17 17:16:02,397  [<stdin>:45]     INFO   Searching for Food & Drink Shop
-2020-12-17 17:16:02,398  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:03,172  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Food+%26+Drink+Shop&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:03,175  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:03,177  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:03,177  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:03,216  [<stdin>:52]     INFO   More 31 points of interest
-2020-12-17 17:16:03,217  [<stdin>:54]     INFO   1433 so far
-2020-12-17 17:16:03,217  [<stdin>:45]     INFO   Searching for Financial or Legal Service
-2020-12-17 17:16:03,218  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:03,787  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Financial+or+Legal+Service&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:03,794  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:03,795  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:03,796  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:03,821  [<stdin>:52]     INFO   More 18 points of interest
-2020-12-17 17:16:03,823  [<stdin>:54]     INFO   1451 so far
-2020-12-17 17:16:03,824  [<stdin>:45]     INFO   Searching for Bed & Breakfast
-2020-12-17 17:16:03,825  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:04,372  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Bed+%26+Breakfast&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:04,375  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:04,376  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:04,376  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:04,393  [<stdin>:52]     INFO   More 13 points of interest
-2020-12-17 17:16:04,394  [<stdin>:54]     INFO   1464 so far
-2020-12-17 17:16:04,394  [<stdin>:45]     INFO   Searching for Mobile Phone Shop
-2020-12-17 17:16:04,396  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:04,955  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Mobile+Phone+Shop&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:04,957  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:04,958  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:04,959  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:04,983  [<stdin>:52]     INFO   More 15 points of interest
-2020-12-17 17:16:04,986  [<stdin>:54]     INFO   1479 so far
-2020-12-17 17:16:04,986  [<stdin>:45]     INFO   Searching for Music Venue
-2020-12-17 17:16:04,989  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:05,544  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Music+Venue&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:05,550  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:05,554  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:05,555  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:05,621  [<stdin>:52]     INFO   More 13 points of interest
-2020-12-17 17:16:05,623  [<stdin>:54]     INFO   1492 so far
-2020-12-17 17:16:05,624  [<stdin>:45]     INFO   Searching for Credit Union
-2020-12-17 17:16:05,627  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:06,243  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Credit+Union&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:06,248  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:06,250  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:06,251  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:06,279  [<stdin>:52]     INFO   More 12 points of interest
-2020-12-17 17:16:06,280  [<stdin>:54]     INFO   1504 so far
-2020-12-17 17:16:06,281  [<stdin>:45]     INFO   Searching for Salon / Barbershop
-2020-12-17 17:16:06,282  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:06,994  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Salon+%2F+Barbershop&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:07,002  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:07,008  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:07,009  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:07,059  [<stdin>:52]     INFO   More 39 points of interest
-2020-12-17 17:16:07,061  [<stdin>:54]     INFO   1543 so far
-2020-12-17 17:16:07,061  [<stdin>:45]     INFO   Searching for Photography Studio
-2020-12-17 17:16:07,064  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:07,678  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Photography+Studio&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:07,683  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:07,685  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:07,686  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:07,709  [<stdin>:52]     INFO   More 11 points of interest
-2020-12-17 17:16:07,710  [<stdin>:54]     INFO   1554 so far
-2020-12-17 17:16:07,710  [<stdin>:45]     INFO   Searching for Business Service
-2020-12-17 17:16:07,712  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:08,395  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Business+Service&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:08,400  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:08,405  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:08,406  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:08,451  [<stdin>:52]     INFO   More 40 points of interest
-2020-12-17 17:16:08,452  [<stdin>:54]     INFO   1594 so far
-2020-12-17 17:16:08,452  [<stdin>:45]     INFO   Searching for Pet Service
-2020-12-17 17:16:08,454  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:09,008  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Pet+Service&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:09,014  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:09,015  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:09,015  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:09,037  [<stdin>:52]     INFO   More 7 points of interest
-2020-12-17 17:16:09,038  [<stdin>:54]     INFO   1601 so far
-2020-12-17 17:16:09,038  [<stdin>:45]     INFO   Searching for ATM
-2020-12-17 17:16:09,039  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:09,623  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=ATM&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:09,628  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:09,630  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:09,630  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:09,654  [<stdin>:52]     INFO   More 5 points of interest
-2020-12-17 17:16:09,656  [<stdin>:54]     INFO   1606 so far
-2020-12-17 17:16:09,656  [<stdin>:45]     INFO   Searching for Station
-2020-12-17 17:16:09,658  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:10,227  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Station&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:10,232  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:10,236  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:10,236  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:10,266  [<stdin>:52]     INFO   More 24 points of interest
-2020-12-17 17:16:10,267  [<stdin>:54]     INFO   1630 so far
-2020-12-17 17:16:10,267  [<stdin>:45]     INFO   Searching for Restaurant
-2020-12-17 17:16:10,268  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:10,832  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Restaurant&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:10,835  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:10,837  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:10,837  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:10,868  [<stdin>:52]     INFO   More 45 points of interest
-2020-12-17 17:16:10,869  [<stdin>:54]     INFO   1675 so far
-2020-12-17 17:16:10,869  [<stdin>:45]     INFO   Searching for Gift shop
-2020-12-17 17:16:10,871  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:11,443  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Gift+shop&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:11,450  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:11,452  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:11,455  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:11,489  [<stdin>:52]     INFO   More 17 points of interest
-2020-12-17 17:16:11,490  [<stdin>:54]     INFO   1692 so far
-2020-12-17 17:16:11,490  [<stdin>:45]     INFO   Searching for Performing Arts Venue
-2020-12-17 17:16:11,492  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:12,081  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Performing+Arts+Venue&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:12,088  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:12,090  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:12,091  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:12,105  [<stdin>:52]     INFO   More 5 points of interest
-2020-12-17 17:16:12,107  [<stdin>:54]     INFO   1697 so far
-2020-12-17 17:16:12,107  [<stdin>:45]     INFO   Searching for Gas Station
-2020-12-17 17:16:12,109  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:12,947  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Gas+Station&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:12,953  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:12,962  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:12,962  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:13,030  [<stdin>:52]     INFO   More 95 points of interest
-2020-12-17 17:16:13,032  [<stdin>:54]     INFO   1792 so far
-2020-12-17 17:16:13,032  [<stdin>:45]     INFO   Searching for Terminal
-2020-12-17 17:16:13,033  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:13,719  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Terminal&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:13,725  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:13,726  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:13,727  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:13,753  [<stdin>:52]     INFO   More 6 points of interest
-2020-12-17 17:16:13,755  [<stdin>:54]     INFO   1798 so far
-2020-12-17 17:16:13,755  [<stdin>:45]     INFO   Searching for Women's Store
-2020-12-17 17:16:13,757  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:14,435  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Women%27s+Store&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:14,439  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:14,441  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:14,441  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:14,477  [<stdin>:52]     INFO   More 23 points of interest
-2020-12-17 17:16:14,478  [<stdin>:54]     INFO   1821 so far
-2020-12-17 17:16:14,478  [<stdin>:45]     INFO   Searching for Entertainment Service
-2020-12-17 17:16:14,480  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:15,049  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Entertainment+Service&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:15,050  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:15,051  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:15,051  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:15,061  [<stdin>:52]     INFO   More 4 points of interest
-2020-12-17 17:16:15,062  [<stdin>:54]     INFO   1825 so far
-2020-12-17 17:16:15,062  [<stdin>:45]     INFO   Searching for Store
-2020-12-17 17:16:15,063  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:15,654  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Store&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:15,657  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:15,659  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:15,659  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:15,686  [<stdin>:52]     INFO   More 21 points of interest
-2020-12-17 17:16:15,687  [<stdin>:54]     INFO   1846 so far
-2020-12-17 17:16:15,687  [<stdin>:45]     INFO   Searching for Flower Shop
-2020-12-17 17:16:15,689  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:16,189  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Flower+Shop&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:16,190  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:16,191  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:16,191  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:16,198  [<stdin>:52]     INFO   More 4 points of interest
-2020-12-17 17:16:16,200  [<stdin>:54]     INFO   1850 so far
-2020-12-17 17:16:16,200  [<stdin>:45]     INFO   Searching for Cosmetics Shop
-2020-12-17 17:16:16,201  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:16,788  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Cosmetics+Shop&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:16,790  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:16,791  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:16,791  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:16,812  [<stdin>:52]     INFO   More 21 points of interest
-2020-12-17 17:16:16,814  [<stdin>:54]     INFO   1871 so far
-2020-12-17 17:16:16,814  [<stdin>:45]     INFO   Searching for Ginásio
-2020-12-17 17:16:16,816  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:17,917  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Gin%C3%A1sio&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:17,924  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:17,927  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:17,927  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:17,957  [<stdin>:52]     INFO   More 24 points of interest
-2020-12-17 17:16:17,959  [<stdin>:54]     INFO   1895 so far
-2020-12-17 17:16:17,959  [<stdin>:45]     INFO   Searching for Grocery Store
-2020-12-17 17:16:17,960  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:18,533  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Grocery+Store&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:18,536  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:18,538  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:18,538  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:18,574  [<stdin>:52]     INFO   More 29 points of interest
-2020-12-17 17:16:18,576  [<stdin>:54]     INFO   1924 so far
-2020-12-17 17:16:18,576  [<stdin>:45]     INFO   Searching for Museum
-2020-12-17 17:16:18,578  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:19,657  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Museum&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:19,662  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:19,663  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:19,664  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:19,699  [<stdin>:52]     INFO   More 4 points of interest
-2020-12-17 17:16:19,703  [<stdin>:54]     INFO   1928 so far
-2020-12-17 17:16:19,703  [<stdin>:45]     INFO   Searching for Motorsports Shop
-2020-12-17 17:16:19,709  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
-2020-12-17 17:16:20,217  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Motorsports+Shop&limit=1000 HTTP/1.1" 200 None
-2020-12-17 17:16:20,224  [<stdin>:25]     INFO   <Response [200]>
-2020-12-17 17:16:20,226  [<stdin>:28]     INFO   Got data
-2020-12-17 17:16:20,227  [<stdin>:31]     INFO   Venues gotten
-2020-12-17 17:16:20,252  [<stdin>:52]     INFO   More 2 points of interest
-2020-12-17 17:16:20,255  [<stdin>:54]     INFO   1930 so far
-2020-12-17 17:16:20,266  [<stdin>:56]     INFO   Total of 1612 points of interest
+2020-12-17 17:42:35,775  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Bank&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:35,780  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:35,785  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:35,786  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:35,838  [<stdin>:52]     INFO   More 70 points of interest
+2020-12-17 17:42:35,840  [<stdin>:54]     INFO   725 so far
+2020-12-17 17:42:35,840  [<stdin>:45]     INFO   Searching for Comic Shop
+2020-12-17 17:42:35,842  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:36,492  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Comic+Shop&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:36,500  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:36,502  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:36,503  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:36,544  [<stdin>:52]     INFO   More 2 points of interest
+2020-12-17 17:42:36,550  [<stdin>:54]     INFO   727 so far
+2020-12-17 17:42:36,550  [<stdin>:45]     INFO   Searching for Shoe Store
+2020-12-17 17:42:36,556  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:37,190  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Shoe+Store&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:37,196  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:37,200  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:37,200  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:37,293  [<stdin>:52]     INFO   More 28 points of interest
+2020-12-17 17:42:37,297  [<stdin>:54]     INFO   755 so far
+2020-12-17 17:42:37,298  [<stdin>:45]     INFO   Searching for Department Store
+2020-12-17 17:42:37,303  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:38,136  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Department+Store&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:38,143  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:38,146  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:38,147  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:38,181  [<stdin>:52]     INFO   More 28 points of interest
+2020-12-17 17:42:38,182  [<stdin>:54]     INFO   783 so far
+2020-12-17 17:42:38,182  [<stdin>:45]     INFO   Searching for Shop
+2020-12-17 17:42:38,183  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:38,922  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Shop&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:38,929  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:38,936  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:38,937  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:39,005  [<stdin>:52]     INFO   More 74 points of interest
+2020-12-17 17:42:39,006  [<stdin>:54]     INFO   857 so far
+2020-12-17 17:42:39,006  [<stdin>:45]     INFO   Searching for Automotive Shop
+2020-12-17 17:42:39,008  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:39,803  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Automotive+Shop&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:39,810  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:39,813  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:39,814  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:39,865  [<stdin>:52]     INFO   More 33 points of interest
+2020-12-17 17:42:39,867  [<stdin>:54]     INFO   890 so far
+2020-12-17 17:42:39,867  [<stdin>:45]     INFO   Searching for Supermarket
+2020-12-17 17:42:39,869  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:40,691  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Supermarket&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:40,697  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:40,701  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:40,702  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:40,741  [<stdin>:52]     INFO   More 33 points of interest
+2020-12-17 17:42:40,741  [<stdin>:54]     INFO   923 so far
+2020-12-17 17:42:40,741  [<stdin>:45]     INFO   Searching for Furniture / Home Store
+2020-12-17 17:42:40,743  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:41,509  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Furniture+%2F+Home+Store&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:41,516  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:41,522  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:41,523  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:41,610  [<stdin>:52]     INFO   More 41 points of interest
+2020-12-17 17:42:41,611  [<stdin>:54]     INFO   964 so far
+2020-12-17 17:42:41,611  [<stdin>:45]     INFO   Searching for Insurance Office
+2020-12-17 17:42:41,613  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:42,177  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Insurance+Office&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:42,182  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:42,184  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:42,184  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:42,211  [<stdin>:52]     INFO   More 4 points of interest
+2020-12-17 17:42:42,213  [<stdin>:54]     INFO   968 so far
+2020-12-17 17:42:42,213  [<stdin>:45]     INFO   Searching for Office
+2020-12-17 17:42:42,216  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:42,790  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Office&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:42,794  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:42,796  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:42,797  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:42,823  [<stdin>:52]     INFO   More 4 points of interest
+2020-12-17 17:42:42,825  [<stdin>:54]     INFO   972 so far
+2020-12-17 17:42:42,825  [<stdin>:45]     INFO   Searching for Health & Beauty Service
+2020-12-17 17:42:42,827  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:43,660  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Health+%26+Beauty+Service&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:43,665  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:43,670  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:43,670  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:43,705  [<stdin>:52]     INFO   More 21 points of interest
+2020-12-17 17:42:43,706  [<stdin>:54]     INFO   993 so far
+2020-12-17 17:42:43,706  [<stdin>:45]     INFO   Searching for Men's Store
+2020-12-17 17:42:43,708  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:44,377  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Men%27s+Store&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:44,385  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:44,387  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:44,388  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:44,412  [<stdin>:52]     INFO   More 10 points of interest
+2020-12-17 17:42:44,414  [<stdin>:54]     INFO   1003 so far
+2020-12-17 17:42:44,414  [<stdin>:45]     INFO   Searching for Public Art
+2020-12-17 17:42:44,417  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:45,093  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Public+Art&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:45,098  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:45,101  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:45,102  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:45,118  [<stdin>:52]     INFO   More 7 points of interest
+2020-12-17 17:42:45,119  [<stdin>:54]     INFO   1010 so far
+2020-12-17 17:42:45,120  [<stdin>:45]     INFO   Searching for Pharmacy
+2020-12-17 17:42:45,121  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:45,824  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Pharmacy&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:45,830  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:45,835  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:45,836  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:45,883  [<stdin>:52]     INFO   More 59 points of interest
+2020-12-17 17:42:45,884  [<stdin>:54]     INFO   1069 so far
+2020-12-17 17:42:45,884  [<stdin>:45]     INFO   Searching for Motorcycle Shop
+2020-12-17 17:42:45,886  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:46,631  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Motorcycle+Shop&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:46,639  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:46,642  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:46,643  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:46,674  [<stdin>:52]     INFO   More 24 points of interest
+2020-12-17 17:42:46,675  [<stdin>:54]     INFO   1093 so far
+2020-12-17 17:42:46,676  [<stdin>:45]     INFO   Searching for Auto Workshop
+2020-12-17 17:42:46,677  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:47,251  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Auto+Workshop&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:47,256  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:47,258  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:47,258  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:47,282  [<stdin>:52]     INFO   More 4 points of interest
+2020-12-17 17:42:47,284  [<stdin>:54]     INFO   1097 so far
+2020-12-17 17:42:47,284  [<stdin>:45]     INFO   Searching for University
+2020-12-17 17:42:47,287  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:47,961  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=University&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:47,966  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:47,969  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:47,970  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:48,003  [<stdin>:52]     INFO   More 18 points of interest
+2020-12-17 17:42:48,004  [<stdin>:54]     INFO   1115 so far
+2020-12-17 17:42:48,004  [<stdin>:45]     INFO   Searching for Convenience Store
+2020-12-17 17:42:48,005  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:48,679  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Convenience+Store&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:48,681  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:48,683  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:48,683  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:48,715  [<stdin>:52]     INFO   More 37 points of interest
+2020-12-17 17:42:48,716  [<stdin>:54]     INFO   1152 so far
+2020-12-17 17:42:48,716  [<stdin>:45]     INFO   Searching for Drugstore
+2020-12-17 17:42:48,717  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:49,497  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Drugstore&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:49,502  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:49,509  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:49,509  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:49,564  [<stdin>:52]     INFO   More 61 points of interest
+2020-12-17 17:42:49,565  [<stdin>:54]     INFO   1213 so far
+2020-12-17 17:42:49,565  [<stdin>:45]     INFO   Searching for Hospital
+2020-12-17 17:42:49,567  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:50,213  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Hospital&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:50,221  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:50,224  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:50,225  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:50,254  [<stdin>:52]     INFO   More 24 points of interest
+2020-12-17 17:42:50,255  [<stdin>:54]     INFO   1237 so far
+2020-12-17 17:42:50,255  [<stdin>:45]     INFO   Searching for Clothing Store
+2020-12-17 17:42:50,257  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:51,033  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Clothing+Store&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:51,038  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:51,043  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:51,044  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:51,107  [<stdin>:52]     INFO   More 44 points of interest
+2020-12-17 17:42:51,109  [<stdin>:54]     INFO   1281 so far
+2020-12-17 17:42:51,109  [<stdin>:45]     INFO   Searching for Fruit & Vegetable Store
+2020-12-17 17:42:51,110  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:51,632  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Fruit+%26+Vegetable+Store&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:51,638  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:51,639  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:51,640  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:51,669  [<stdin>:52]     INFO   More 4 points of interest
+2020-12-17 17:42:51,671  [<stdin>:54]     INFO   1285 so far
+2020-12-17 17:42:51,671  [<stdin>:45]     INFO   Searching for School
+2020-12-17 17:42:51,674  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:52,672  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=School&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:52,676  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:52,679  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:52,680  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:52,742  [<stdin>:52]     INFO   More 66 points of interest
+2020-12-17 17:42:52,744  [<stdin>:54]     INFO   1351 so far
+2020-12-17 17:42:52,744  [<stdin>:45]     INFO   Searching for Stadium
+2020-12-17 17:42:52,746  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:53,342  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Stadium&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:53,344  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:53,345  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:53,345  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:53,365  [<stdin>:52]     INFO   More 19 points of interest
+2020-12-17 17:42:53,367  [<stdin>:54]     INFO   1370 so far
+2020-12-17 17:42:53,367  [<stdin>:45]     INFO   Searching for Arts & Entertainment
+2020-12-17 17:42:53,368  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:53,994  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Arts+%26+Entertainment&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:53,996  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:53,997  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:53,997  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:54,009  [<stdin>:52]     INFO   More 6 points of interest
+2020-12-17 17:42:54,011  [<stdin>:54]     INFO   1376 so far
+2020-12-17 17:42:54,011  [<stdin>:45]     INFO   Searching for Accessories Store
+2020-12-17 17:42:54,013  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:54,580  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Accessories+Store&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:54,586  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:54,590  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:54,590  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:54,614  [<stdin>:52]     INFO   More 9 points of interest
+2020-12-17 17:42:54,615  [<stdin>:54]     INFO   1385 so far
+2020-12-17 17:42:54,615  [<stdin>:45]     INFO   Searching for Tattoo Parlor
+2020-12-17 17:42:54,617  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:55,230  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Tattoo+Parlor&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:55,232  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:55,233  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:55,233  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:55,253  [<stdin>:52]     INFO   More 12 points of interest
+2020-12-17 17:42:55,255  [<stdin>:54]     INFO   1397 so far
+2020-12-17 17:42:55,255  [<stdin>:45]     INFO   Searching for Newsstand
+2020-12-17 17:42:55,257  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:55,948  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Newsstand&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:55,953  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:55,956  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:55,957  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:56,001  [<stdin>:52]     INFO   More 5 points of interest
+2020-12-17 17:42:56,007  [<stdin>:54]     INFO   1402 so far
+2020-12-17 17:42:56,008  [<stdin>:45]     INFO   Searching for Food & Drink Shop
+2020-12-17 17:42:56,012  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:56,768  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Food+%26+Drink+Shop&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:56,775  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:56,781  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:56,782  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:56,861  [<stdin>:52]     INFO   More 31 points of interest
+2020-12-17 17:42:56,862  [<stdin>:54]     INFO   1433 so far
+2020-12-17 17:42:56,862  [<stdin>:45]     INFO   Searching for Financial or Legal Service
+2020-12-17 17:42:56,864  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:57,586  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Financial+or+Legal+Service&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:57,592  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:57,595  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:57,596  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:57,629  [<stdin>:52]     INFO   More 18 points of interest
+2020-12-17 17:42:57,630  [<stdin>:54]     INFO   1451 so far
+2020-12-17 17:42:57,630  [<stdin>:45]     INFO   Searching for Bed & Breakfast
+2020-12-17 17:42:57,632  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:58,303  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Bed+%26+Breakfast&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:58,308  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:58,311  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:58,311  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:58,339  [<stdin>:52]     INFO   More 13 points of interest
+2020-12-17 17:42:58,340  [<stdin>:54]     INFO   1464 so far
+2020-12-17 17:42:58,340  [<stdin>:45]     INFO   Searching for Mobile Phone Shop
+2020-12-17 17:42:58,342  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:59,020  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Mobile+Phone+Shop&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:59,027  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:59,031  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:59,032  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:59,057  [<stdin>:52]     INFO   More 15 points of interest
+2020-12-17 17:42:59,059  [<stdin>:54]     INFO   1479 so far
+2020-12-17 17:42:59,059  [<stdin>:45]     INFO   Searching for Music Venue
+2020-12-17 17:42:59,060  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:42:59,754  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Music+Venue&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:42:59,759  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:42:59,762  [<stdin>:28]     INFO   Got data
+2020-12-17 17:42:59,762  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:42:59,797  [<stdin>:52]     INFO   More 13 points of interest
+2020-12-17 17:42:59,798  [<stdin>:54]     INFO   1492 so far
+2020-12-17 17:42:59,798  [<stdin>:45]     INFO   Searching for Credit Union
+2020-12-17 17:42:59,800  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:00,453  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Credit+Union&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:00,458  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:00,461  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:00,462  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:00,493  [<stdin>:52]     INFO   More 12 points of interest
+2020-12-17 17:43:00,494  [<stdin>:54]     INFO   1504 so far
+2020-12-17 17:43:00,494  [<stdin>:45]     INFO   Searching for Salon / Barbershop
+2020-12-17 17:43:00,496  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:01,375  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Salon+%2F+Barbershop&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:01,382  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:01,387  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:01,388  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:01,429  [<stdin>:52]     INFO   More 39 points of interest
+2020-12-17 17:43:01,430  [<stdin>:54]     INFO   1543 so far
+2020-12-17 17:43:01,430  [<stdin>:45]     INFO   Searching for Photography Studio
+2020-12-17 17:43:01,431  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:02,399  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Photography+Studio&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:02,404  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:02,406  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:02,407  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:02,440  [<stdin>:52]     INFO   More 11 points of interest
+2020-12-17 17:43:02,442  [<stdin>:54]     INFO   1554 so far
+2020-12-17 17:43:02,442  [<stdin>:45]     INFO   Searching for Business Service
+2020-12-17 17:43:02,444  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:03,220  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Business+Service&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:03,225  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:03,230  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:03,230  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:03,276  [<stdin>:52]     INFO   More 40 points of interest
+2020-12-17 17:43:03,277  [<stdin>:54]     INFO   1594 so far
+2020-12-17 17:43:03,277  [<stdin>:45]     INFO   Searching for Pet Service
+2020-12-17 17:43:03,279  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:04,037  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Pet+Service&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:04,041  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:04,043  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:04,044  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:04,069  [<stdin>:52]     INFO   More 7 points of interest
+2020-12-17 17:43:04,071  [<stdin>:54]     INFO   1601 so far
+2020-12-17 17:43:04,071  [<stdin>:45]     INFO   Searching for ATM
+2020-12-17 17:43:04,073  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:04,759  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=ATM&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:04,764  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:04,766  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:04,766  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:04,791  [<stdin>:52]     INFO   More 5 points of interest
+2020-12-17 17:43:04,793  [<stdin>:54]     INFO   1606 so far
+2020-12-17 17:43:04,793  [<stdin>:45]     INFO   Searching for Station
+2020-12-17 17:43:04,795  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:05,395  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Station&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:05,400  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:05,403  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:05,403  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:05,446  [<stdin>:52]     INFO   More 24 points of interest
+2020-12-17 17:43:05,447  [<stdin>:54]     INFO   1630 so far
+2020-12-17 17:43:05,448  [<stdin>:45]     INFO   Searching for Restaurant
+2020-12-17 17:43:05,449  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:06,040  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Restaurant&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:06,045  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:06,050  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:06,051  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:06,094  [<stdin>:52]     INFO   More 45 points of interest
+2020-12-17 17:43:06,095  [<stdin>:54]     INFO   1675 so far
+2020-12-17 17:43:06,095  [<stdin>:45]     INFO   Searching for Gift shop
+2020-12-17 17:43:06,096  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:06,803  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Gift+shop&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:06,807  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:06,810  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:06,811  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:06,847  [<stdin>:52]     INFO   More 17 points of interest
+2020-12-17 17:43:06,849  [<stdin>:54]     INFO   1692 so far
+2020-12-17 17:43:06,849  [<stdin>:45]     INFO   Searching for Performing Arts Venue
+2020-12-17 17:43:06,851  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:07,520  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Performing+Arts+Venue&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:07,542  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:07,544  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:07,545  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:07,569  [<stdin>:52]     INFO   More 5 points of interest
+2020-12-17 17:43:07,571  [<stdin>:54]     INFO   1697 so far
+2020-12-17 17:43:07,571  [<stdin>:45]     INFO   Searching for Gas Station
+2020-12-17 17:43:07,573  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:08,442  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Gas+Station&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:08,448  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:08,457  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:08,458  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:08,528  [<stdin>:52]     INFO   More 95 points of interest
+2020-12-17 17:43:08,530  [<stdin>:54]     INFO   1792 so far
+2020-12-17 17:43:08,530  [<stdin>:45]     INFO   Searching for Terminal
+2020-12-17 17:43:08,531  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:09,268  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Terminal&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:09,273  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:09,274  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:09,275  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:09,301  [<stdin>:52]     INFO   More 6 points of interest
+2020-12-17 17:43:09,303  [<stdin>:54]     INFO   1798 so far
+2020-12-17 17:43:09,303  [<stdin>:45]     INFO   Searching for Women's Store
+2020-12-17 17:43:09,305  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:09,977  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Women%27s+Store&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:09,983  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:09,986  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:09,986  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:10,024  [<stdin>:52]     INFO   More 23 points of interest
+2020-12-17 17:43:10,026  [<stdin>:54]     INFO   1821 so far
+2020-12-17 17:43:10,026  [<stdin>:45]     INFO   Searching for Entertainment Service
+2020-12-17 17:43:10,027  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:10,945  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Entertainment+Service&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:10,950  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:10,952  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:10,952  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:10,976  [<stdin>:52]     INFO   More 4 points of interest
+2020-12-17 17:43:10,978  [<stdin>:54]     INFO   1825 so far
+2020-12-17 17:43:10,978  [<stdin>:45]     INFO   Searching for Store
+2020-12-17 17:43:10,980  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:11,717  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Store&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:11,722  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:11,725  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:11,725  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:11,763  [<stdin>:52]     INFO   More 21 points of interest
+2020-12-17 17:43:11,765  [<stdin>:54]     INFO   1846 so far
+2020-12-17 17:43:11,765  [<stdin>:45]     INFO   Searching for Flower Shop
+2020-12-17 17:43:11,767  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:12,280  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Flower+Shop&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:12,285  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:12,287  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:12,287  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:12,310  [<stdin>:52]     INFO   More 4 points of interest
+2020-12-17 17:43:12,312  [<stdin>:54]     INFO   1850 so far
+2020-12-17 17:43:12,312  [<stdin>:45]     INFO   Searching for Cosmetics Shop
+2020-12-17 17:43:12,315  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:12,910  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Cosmetics+Shop&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:12,914  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:12,917  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:12,917  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:12,955  [<stdin>:52]     INFO   More 21 points of interest
+2020-12-17 17:43:12,956  [<stdin>:54]     INFO   1871 so far
+2020-12-17 17:43:12,956  [<stdin>:45]     INFO   Searching for Ginásio
+2020-12-17 17:43:12,958  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:13,560  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Gin%C3%A1sio&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:13,565  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:13,569  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:13,570  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:13,606  [<stdin>:52]     INFO   More 24 points of interest
+2020-12-17 17:43:13,608  [<stdin>:54]     INFO   1895 so far
+2020-12-17 17:43:13,608  [<stdin>:45]     INFO   Searching for Grocery Store
+2020-12-17 17:43:13,609  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:14,303  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Grocery+Store&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:14,308  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:14,312  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:14,312  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:14,354  [<stdin>:52]     INFO   More 29 points of interest
+2020-12-17 17:43:14,355  [<stdin>:54]     INFO   1924 so far
+2020-12-17 17:43:14,355  [<stdin>:45]     INFO   Searching for Museum
+2020-12-17 17:43:14,356  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:14,892  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Museum&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:14,914  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:14,916  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:14,917  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:14,940  [<stdin>:52]     INFO   More 4 points of interest
+2020-12-17 17:43:14,942  [<stdin>:54]     INFO   1928 so far
+2020-12-17 17:43:14,942  [<stdin>:45]     INFO   Searching for Motorsports Shop
+2020-12-17 17:43:14,946  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:15,505  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.967448555391197+%2C-48.682939817&query=Motorsports+Shop&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:15,506  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:15,507  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:15,507  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:15,512  [<stdin>:52]     INFO   More 2 points of interest
+2020-12-17 17:43:15,513  [<stdin>:54]     INFO   1930 so far
+2020-12-17 17:43:15,519  [<stdin>:56]     INFO   Total of 1612 points of interest
+2020-12-17 17:43:15,528  [<stdin>:12]     INFO   Class initialized
+2020-12-17 17:43:15,529  [<stdin>:45]     INFO   Searching for Bakery
+2020-12-17 17:43:15,530  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:16,326  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Bakery&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:16,333  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:16,341  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:16,341  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:16,392  [<stdin>:52]     INFO   More 65 points of interest
+2020-12-17 17:43:16,392  [<stdin>:54]     INFO   65 so far
+2020-12-17 17:43:16,392  [<stdin>:45]     INFO   Searching for Bar
+2020-12-17 17:43:16,394  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:17,247  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Bar&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:17,292  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:17,298  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:17,299  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:17,364  [<stdin>:52]     INFO   More 67 points of interest
+2020-12-17 17:43:17,365  [<stdin>:54]     INFO   132 so far
+2020-12-17 17:43:17,365  [<stdin>:45]     INFO   Searching for Bookstore
+2020-12-17 17:43:17,367  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:18,066  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Bookstore&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:18,070  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:18,072  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:18,073  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:18,087  [<stdin>:52]     INFO   More 7 points of interest
+2020-12-17 17:43:18,088  [<stdin>:54]     INFO   139 so far
+2020-12-17 17:43:18,088  [<stdin>:45]     INFO   Searching for Gym
+2020-12-17 17:43:18,089  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:18,889  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Gym&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:18,894  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:18,901  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:18,901  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:18,961  [<stdin>:52]     INFO   More 69 points of interest
+2020-12-17 17:43:18,962  [<stdin>:54]     INFO   208 so far
+2020-12-17 17:43:18,962  [<stdin>:45]     INFO   Searching for Design Studio
+2020-12-17 17:43:18,963  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:19,602  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Design+Studio&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:19,608  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:19,610  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:19,611  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:19,643  [<stdin>:52]     INFO   More 10 points of interest
+2020-12-17 17:43:19,644  [<stdin>:54]     INFO   218 so far
+2020-12-17 17:43:19,645  [<stdin>:45]     INFO   Searching for Shopping Mall
+2020-12-17 17:43:19,647  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:20,185  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Shopping+Mall&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:20,189  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:20,192  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:20,192  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:20,230  [<stdin>:52]     INFO   More 19 points of interest
+2020-12-17 17:43:20,231  [<stdin>:54]     INFO   237 so far
+2020-12-17 17:43:20,232  [<stdin>:45]     INFO   Searching for Lawyer
+2020-12-17 17:43:20,233  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:20,830  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Lawyer&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:20,835  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:20,836  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:20,837  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:20,861  [<stdin>:52]     INFO   More 4 points of interest
+2020-12-17 17:43:20,863  [<stdin>:54]     INFO   241 so far
+2020-12-17 17:43:20,863  [<stdin>:45]     INFO   Searching for Boutique
+2020-12-17 17:43:20,865  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:22,470  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Boutique&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:22,475  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:22,479  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:22,479  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:22,517  [<stdin>:52]     INFO   More 23 points of interest
+2020-12-17 17:43:22,518  [<stdin>:54]     INFO   264 so far
+2020-12-17 17:43:22,518  [<stdin>:45]     INFO   Searching for Shop & Service
+2020-12-17 17:43:22,520  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:23,597  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Shop+%26+Service&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:23,603  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:23,611  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:23,611  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:23,668  [<stdin>:52]     INFO   More 70 points of interest
+2020-12-17 17:43:23,669  [<stdin>:54]     INFO   334 so far
+2020-12-17 17:43:23,669  [<stdin>:45]     INFO   Searching for Factory
+2020-12-17 17:43:23,670  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:24,313  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Factory&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:24,318  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:24,319  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:24,319  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:24,349  [<stdin>:52]     INFO   More 5 points of interest
+2020-12-17 17:43:24,350  [<stdin>:54]     INFO   339 so far
+2020-12-17 17:43:24,350  [<stdin>:45]     INFO   Searching for Clothing
+2020-12-17 17:43:24,352  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:25,132  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Clothing&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:25,138  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:25,143  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:25,143  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:25,192  [<stdin>:52]     INFO   More 51 points of interest
+2020-12-17 17:43:25,193  [<stdin>:54]     INFO   390 so far
+2020-12-17 17:43:25,193  [<stdin>:45]     INFO   Searching for Construction & Landscaping
+2020-12-17 17:43:25,194  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:26,566  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Construction+%26+Landscaping&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:26,573  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:26,575  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:26,576  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:26,612  [<stdin>:52]     INFO   More 24 points of interest
+2020-12-17 17:43:26,613  [<stdin>:54]     INFO   414 so far
+2020-12-17 17:43:26,613  [<stdin>:45]     INFO   Searching for Nail Salon
+2020-12-17 17:43:26,614  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:27,249  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Nail+Salon&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:27,254  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:27,256  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:27,257  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:27,285  [<stdin>:52]     INFO   More 13 points of interest
+2020-12-17 17:43:27,287  [<stdin>:54]     INFO   427 so far
+2020-12-17 17:43:27,287  [<stdin>:45]     INFO   Searching for Airport
+2020-12-17 17:43:27,288  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:27,901  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Airport&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:27,927  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:27,930  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:27,930  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:27,960  [<stdin>:52]     INFO   More 8 points of interest
+2020-12-17 17:43:27,961  [<stdin>:54]     INFO   435 so far
+2020-12-17 17:43:27,961  [<stdin>:45]     INFO   Searching for Market
+2020-12-17 17:43:27,963  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:28,616  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Market&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:28,620  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:28,624  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:28,625  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:28,657  [<stdin>:52]     INFO   More 18 points of interest
+2020-12-17 17:43:28,658  [<stdin>:54]     INFO   453 so far
+2020-12-17 17:43:28,659  [<stdin>:45]     INFO   Searching for Auto Garage
+2020-12-17 17:43:28,660  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:29,315  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Auto+Garage&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:29,319  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:29,322  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:29,323  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:29,359  [<stdin>:52]     INFO   More 22 points of interest
+2020-12-17 17:43:29,360  [<stdin>:54]     INFO   475 so far
+2020-12-17 17:43:29,360  [<stdin>:45]     INFO   Searching for Electronics Store
+2020-12-17 17:43:29,361  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:30,047  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Electronics+Store&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:30,054  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:30,056  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:30,057  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:30,077  [<stdin>:52]     INFO   More 17 points of interest
+2020-12-17 17:43:30,078  [<stdin>:54]     INFO   492 so far
+2020-12-17 17:43:30,078  [<stdin>:45]     INFO   Searching for Bank
+2020-12-17 17:43:30,079  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:30,764  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Bank&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:30,769  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:30,773  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:30,773  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:30,818  [<stdin>:52]     INFO   More 28 points of interest
+2020-12-17 17:43:30,819  [<stdin>:54]     INFO   520 so far
+2020-12-17 17:43:30,819  [<stdin>:45]     INFO   Searching for Comic Shop
+2020-12-17 17:43:30,822  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:31,480  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Comic+Shop&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:31,485  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:31,487  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:31,487  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:31,509  [<stdin>:52]     INFO   More 2 points of interest
+2020-12-17 17:43:31,511  [<stdin>:54]     INFO   522 so far
+2020-12-17 17:43:31,511  [<stdin>:45]     INFO   Searching for Shoe Store
+2020-12-17 17:43:31,513  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:32,197  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Shoe+Store&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:32,201  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:32,204  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:32,204  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:32,242  [<stdin>:52]     INFO   More 23 points of interest
+2020-12-17 17:43:32,243  [<stdin>:54]     INFO   545 so far
+2020-12-17 17:43:32,243  [<stdin>:45]     INFO   Searching for Department Store
+2020-12-17 17:43:32,245  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:32,914  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Department+Store&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:32,919  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:32,922  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:32,923  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:32,958  [<stdin>:52]     INFO   More 21 points of interest
+2020-12-17 17:43:32,959  [<stdin>:54]     INFO   566 so far
+2020-12-17 17:43:32,959  [<stdin>:45]     INFO   Searching for Shop
+2020-12-17 17:43:32,961  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:33,693  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Shop&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:33,698  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:33,705  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:33,706  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:33,764  [<stdin>:52]     INFO   More 70 points of interest
+2020-12-17 17:43:33,764  [<stdin>:54]     INFO   636 so far
+2020-12-17 17:43:33,765  [<stdin>:45]     INFO   Searching for Automotive Shop
+2020-12-17 17:43:33,766  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:34,451  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Automotive+Shop&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:34,457  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:34,460  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:34,461  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:34,496  [<stdin>:52]     INFO   More 21 points of interest
+2020-12-17 17:43:34,497  [<stdin>:54]     INFO   657 so far
+2020-12-17 17:43:34,497  [<stdin>:45]     INFO   Searching for Supermarket
+2020-12-17 17:43:34,499  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:35,269  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Supermarket&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:35,274  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:35,277  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:35,278  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:35,313  [<stdin>:52]     INFO   More 25 points of interest
+2020-12-17 17:43:35,314  [<stdin>:54]     INFO   682 so far
+2020-12-17 17:43:35,314  [<stdin>:45]     INFO   Searching for Furniture / Home Store
+2020-12-17 17:43:35,316  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:35,986  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Furniture+%2F+Home+Store&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:35,988  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:35,990  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:35,990  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:36,023  [<stdin>:52]     INFO   More 33 points of interest
+2020-12-17 17:43:36,023  [<stdin>:54]     INFO   715 so far
+2020-12-17 17:43:36,024  [<stdin>:45]     INFO   Searching for Insurance Office
+2020-12-17 17:43:36,025  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:36,602  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Insurance+Office&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:36,608  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:36,610  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:36,610  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:36,629  [<stdin>:52]     INFO   More 3 points of interest
+2020-12-17 17:43:36,631  [<stdin>:54]     INFO   718 so far
+2020-12-17 17:43:36,631  [<stdin>:45]     INFO   Searching for Office
+2020-12-17 17:43:36,633  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:37,216  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Office&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:37,223  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:37,224  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:37,225  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:37,248  [<stdin>:52]     INFO   More 4 points of interest
+2020-12-17 17:43:37,250  [<stdin>:54]     INFO   722 so far
+2020-12-17 17:43:37,250  [<stdin>:45]     INFO   Searching for Health & Beauty Service
+2020-12-17 17:43:37,252  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:47,967  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Health+%26+Beauty+Service&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:47,972  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:47,975  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:47,975  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:48,009  [<stdin>:52]     INFO   More 16 points of interest
+2020-12-17 17:43:48,010  [<stdin>:54]     INFO   738 so far
+2020-12-17 17:43:48,011  [<stdin>:45]     INFO   Searching for Men's Store
+2020-12-17 17:43:48,012  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:48,757  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Men%27s+Store&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:48,762  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:48,764  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:48,764  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:48,794  [<stdin>:52]     INFO   More 8 points of interest
+2020-12-17 17:43:48,796  [<stdin>:54]     INFO   746 so far
+2020-12-17 17:43:48,796  [<stdin>:45]     INFO   Searching for Public Art
+2020-12-17 17:43:48,798  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:49,400  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Public+Art&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:49,405  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:49,408  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:49,409  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:49,441  [<stdin>:52]     INFO   More 15 points of interest
+2020-12-17 17:43:49,442  [<stdin>:54]     INFO   761 so far
+2020-12-17 17:43:49,442  [<stdin>:45]     INFO   Searching for Pharmacy
+2020-12-17 17:43:49,444  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:50,058  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Pharmacy&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:50,062  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:50,067  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:50,067  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:50,107  [<stdin>:52]     INFO   More 39 points of interest
+2020-12-17 17:43:50,108  [<stdin>:54]     INFO   800 so far
+2020-12-17 17:43:50,108  [<stdin>:45]     INFO   Searching for Motorcycle Shop
+2020-12-17 17:43:50,109  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:52,677  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Motorcycle+Shop&limit=1000 HTTP/1.1" 200 None
+2020-12-17 17:43:52,683  [<stdin>:25]     INFO   <Response [200]>
+2020-12-17 17:43:52,684  [<stdin>:28]     INFO   Got data
+2020-12-17 17:43:52,685  [<stdin>:31]     INFO   Venues gotten
+2020-12-17 17:43:52,721  [<stdin>:52]     INFO   More 14 points of interest
+2020-12-17 17:43:52,722  [<stdin>:54]     INFO   814 so far
+2020-12-17 17:43:52,722  [<stdin>:45]     INFO   Searching for Auto Workshop
+2020-12-17 17:43:52,723  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): api.foursquare.com:443
+2020-12-17 17:43:53,805  [connectionpool.py:391]     DEBUG  https://api.foursquare.com:443 "GET /v2/venues/explore?client_id=P0VECUSYDJB24CHOVK4SH1ZOS3ZC1VO00FZMIHNN0U1HMZT1&client_secret=RAKWBMTXSLUDEJZ53LABSEQFX1CX4E4VQ2RNF0JVFYBOZOZZ&v=20180323&ll=-26.983037012659302+%2C-48.673939817&query=Auto+Workshop&limit=1000 HTTP/1.1" 504 183
+2020-12-17 17:43:53,810  [<stdin>:25]     INFO   <Response [504]>
+2020-12-17 17:43:53,812  [<stdin>:28]     INFO   Got data
+2020-12-17 18:43:29,699  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-17 18:43:32,765  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=buPzK-J0Fz6OpsoSyR9fNNJWqeEl3BbqZRcVlTsziyQ&q=palho%C3%A7a%2C+sc HTTP/1.1" 200 317
+2020-12-17 19:04:59,164  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-17 19:05:01,683  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=buPzK-J0Fz6OpsoSyR9fNNJWqeEl3BbqZRcVlTsziyQ&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 200 None
+2020-12-17 19:09:12,626  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-17 19:09:15,379  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=buPzK-J0Fz6OpsoSyR9fNNJWqeEl3BbqZRcVlTsziyQ&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 200 322
+2020-12-18 11:07:14,716  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:07:15,714  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=buPzK-J0Fz6OpsoSyR9fNNJWqeEl3BbqZRcVlTsziyQ&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 401 82
+2020-12-18 11:07:40,454  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:07:41,293  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=buPzK-J0Fz6OpsoSyR9fNNJWqeEl3BbqZRcVlTsziyQ&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 401 82
+2020-12-18 11:08:38,730  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:08:39,968  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=buPzK-J0Fz6OpsoSyR9fNNJWqeEl3BbqZRcVlTsziyQ&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 401 82
+2020-12-18 11:10:51,170  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:10:52,116  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=buPzK-J0Fz6OpsoSyR9fNNJWqeEl3BbqZRcVlTsziyQ&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 401 82
+2020-12-18 11:10:58,423  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:10:59,204  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=buPzK-J0Fz6OpsoSyR9fNNJWqeEl3BbqZRcVlTsziyQ&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 401 82
+2020-12-18 11:11:05,350  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:11:06,066  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=buPzK-J0Fz6OpsoSyR9fNNJWqeEl3BbqZRcVlTsziyQ&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 401 82
+2020-12-18 11:11:13,260  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:11:14,008  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=buPzK-J0Fz6OpsoSyR9fNNJWqeEl3BbqZRcVlTsziyQ&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 401 82
+2020-12-18 11:11:15,551  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:11:16,269  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=buPzK-J0Fz6OpsoSyR9fNNJWqeEl3BbqZRcVlTsziyQ&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 401 82
+2020-12-18 11:11:40,036  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:11:41,347  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=buPzK-J0Fz6OpsoSyR9fNNJWqeEl3BbqZRcVlTsziyQ&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 401 82
+2020-12-18 11:18:57,486  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:18:58,725  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 200 322
+2020-12-18 11:19:06,564  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:19:07,724  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 200 None
+2020-12-18 11:19:13,695  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:19:14,920  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 200 None
+2020-12-18 11:19:22,465  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:19:23,517  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 200 None
+2020-12-18 11:19:43,749  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:19:44,699  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 200 None
+2020-12-18 11:20:23,850  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:20:24,845  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 200 322
+2020-12-18 11:20:44,206  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:20:45,512  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 200 322
+2020-12-18 11:20:51,965  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:20:53,089  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 200 None
+2020-12-18 11:21:32,278  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:21:33,597  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 200 None
+2020-12-18 11:21:33,601  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:21:34,684  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 200 None
+2020-12-18 11:21:34,694  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:21:35,686  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 200 None
+2020-12-18 11:22:16,821  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:22:17,976  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 200 None
+2020-12-18 11:22:17,987  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:22:19,204  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 200 None
+2020-12-18 11:22:19,209  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:22:20,217  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 200 None
+2020-12-18 11:34:35,054  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:34:36,762  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 200 None
+2020-12-18 11:34:36,764  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:34:37,801  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 200 None
+2020-12-18 11:34:37,803  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:34:38,723  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 200 322
+2020-12-18 11:34:38,725  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:34:39,638  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Palho%C3%A7a%2C+Santa+Catarina%2C+Brasil HTTP/1.1" 200 None
+2020-12-18 11:35:18,662  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:35:19,625  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=av.+central%2C+kobrasol%2C+sao+jose%2C+sc HTTP/1.1" 200 None
+2020-12-18 11:35:19,635  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:35:20,605  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=shopping+via+catarina%2C+pagani%2C+palho%C3%A7a%2C+sc HTTP/1.1" 200 None
+2020-12-18 11:35:20,615  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:35:21,662  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=pra%C3%A7a+central%2C+bigua%C3%A7u%2C+sc HTTP/1.1" 200 330
+2020-12-18 11:35:21,675  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:35:22,755  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=London%2C+UK HTTP/1.1" 200 None
+2020-12-18 11:55:00,698  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:55:01,916  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Rua+620%2C+376+-+Centro%2C+Balne%C3%A1rio+Cambori%C3%BA+-+SC HTTP/1.1" 200 None
+2020-12-18 11:55:01,925  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:55:02,899  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Rua+981%2C+323+-+Centro%2C+Balne%C3%A1rio+Cambori%C3%BA+-+SC HTTP/1.1" 200 None
+2020-12-18 11:55:02,911  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:55:04,000  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Rua+3310+-+Centro%2C+Balne%C3%A1rio+Cambori%C3%BA+-+SC HTTP/1.1" 200 None
+2020-12-18 11:55:04,012  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:55:05,048  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Avenida+Atl%C3%A2ntica%2C+1724+-+Centro%2C+Balne%C3%A1rio+Cambori%C3%BA+-+SC HTTP/1.1" 200 None
+2020-12-18 11:55:05,054  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:55:06,057  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Rua+2414%2C+20+-+Centro%2C+Balne%C3%A1rio+Cambori%C3%BA+-+SC HTTP/1.1" 200 None
+2020-12-18 11:55:06,068  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 11:55:06,931  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Rua+1926+-+Centro%2C+Balne%C3%A1rio+Cambori%C3%BA+-+SC HTTP/1.1" 200 348
+2020-12-18 14:02:59,094  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 14:03:00,441  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Rua+620%2C+376+-+Centro%2C+Balne%C3%A1rio+Cambori%C3%BA+-+SC HTTP/1.1" 401 82
+2020-12-18 14:03:06,625  [connectionpool.py:812]     DEBUG  Starting new HTTPS connection (1): geocode.search.hereapi.com:443
+2020-12-18 14:03:07,813  [connectionpool.py:391]     DEBUG  https://geocode.search.hereapi.com:443 "GET /v1/geocode?apikey=xS8VTefdgUTaBWHwIkHAwfvhz34OPJ6NCcQhAGlXm4Y&q=Rua+620%2C+376+-+Centro%2C+Balne%C3%A1rio+Cambori%C3%BA+-+SC HTTP/1.1" 401 82
