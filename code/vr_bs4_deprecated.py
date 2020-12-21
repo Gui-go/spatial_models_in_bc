@@ -1,5 +1,6 @@
 '''
 DEPRECATED
+due to need of js interpreter (selenium)
 '''
 
 import requests

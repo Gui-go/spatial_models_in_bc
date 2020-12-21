@@ -78,12 +78,16 @@ print('Accuracy:', round(accuracy, 2), '%.')
 # Compute the difference between the models
 all_accuracy =  100 * (1- np.mean(abs(predictions_all - y_test_data) / y_test_data))
 reduced_accuracy = 100 * (1- np.mean(abs(predictions_sub - y_test_data) / y_test_data))
-comparison = pd.DataFrame({'features': ['all (4)', 'reduced (2)'], 
-                           'accuracy': [round(all_accuracy, 2), round(reduced_accuracy, 2)]})
+comparison = pd.DataFrame({
+    'features': ['all (4)', 'reduced (2)'], 
+    'accuracy': [round(all_accuracy, 2), round(reduced_accuracy, 2)]
+})
 comparison[['features', 'accuracy']]
-relative_accuracy_increase = abs(100 * (all_accuracy - reduced_accuracy) / all_accuracy)
-print('Relative increase in accuracy:', round(relative_accuracy_increase, 3), '%.')
+relative_accuracy_dif = abs(100 * (all_accuracy - reduced_accuracy) / all_accuracy)
+print('Relative difference in accuracy:', round(relative_accuracy_dif, 3), '%.')
 
 
-# Help
-# https://github.com/WillKoehrsen/Data-Analysis/blob/master/random_forest_explained/Improving%20Random%20Forest%20Part%201.ipynb
+
+# More
+import scipy.stats
+round(scipy.stats.pearsonr(x['area'], x['garages'])[0], 3)
