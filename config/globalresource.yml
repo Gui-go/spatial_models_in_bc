@@ -1,2 +1,0 @@
-default:
-    mongoURL: 'mongodb+srv://guigo:Liberdade13@cluster0.04kdv.mongodb.net/spatial_models_in_bc_db?retryWrites=true&w=majority'
