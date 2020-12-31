@@ -2,3 +2,5 @@
 /conf
 .Rproj.user
 geckodriver.log
+.Rhistory
+.RData
