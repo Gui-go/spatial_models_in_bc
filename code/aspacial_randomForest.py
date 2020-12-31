@@ -88,6 +88,6 @@ print('Relative difference in accuracy:', round(relative_accuracy_dif, 3), '%.')
 
 
 
-# More
+# More ---------------------------------------------------------------------------------------
 import scipy.stats
 round(scipy.stats.pearsonr(x['area'], x['garages'])[0], 3)
