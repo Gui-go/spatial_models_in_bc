@@ -2,10 +2,5 @@
 /conf
 .Rproj.user
 geckodriver.log
-<<<<<<< HEAD
 .Rhistory
 .RData
-=======
-.RData
-.Rhistory
->>>>>>> 036905064e373a2e62979507319fdbda3bba935a

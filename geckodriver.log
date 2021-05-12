@@ -308,3 +308,34 @@ JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/work
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 1608171442461	Marionette	INFO	Stopped listening on port 39893
+1609543706601	geckodriver	INFO	Listening on 127.0.0.1:58807
+1609543706639	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDJtgin"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609543710746	Marionette	INFO	Listening on port 36029
+1609543710793	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1609543829171	Marionette	INFO	Stopped listening on port 36029
+1609794733044	geckodriver	INFO	Listening on 127.0.0.1:60463
+1609794734209	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBUOfZH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609794748092	Marionette	INFO	Listening on port 35515
+1609794748426	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1609794813563	Marionette	INFO	Stopped listening on port 35515
+1610232125076	geckodriver	INFO	Listening on 127.0.0.1:57697
+1610232125132	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuSS25v"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610232128216	Marionette	INFO	Listening on port 36833
+1610232128655	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1610232164035	Marionette	INFO	Stopped listening on port 36833
+1616647109092	geckodriver	INFO	Listening on 127.0.0.1:59175
+1616647110127	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVKfGQ1"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616647118000	Marionette	INFO	Listening on port 41667
+1616647118258	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616651362128	Marionette	INFO	Stopped listening on port 41667
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 988: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]

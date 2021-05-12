@@ -62,7 +62,7 @@ class VR:
         logging.info(f'{len(self.df.url.drop_duplicates())} unique links ')
 
     def save(self):
-        self.df.to_csv(r'bc_imoveis_filtered_d20201115.csv')
+        self.df.to_csv(r'sj_imoveis_filtered_d20210325.csv')
         logging.info('CSV saved')
     
     def adddate(self):

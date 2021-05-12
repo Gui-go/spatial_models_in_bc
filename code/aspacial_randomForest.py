@@ -27,6 +27,8 @@ regressor = RandomForestRegressor(n_estimators = 10, random_state = 42)
 regressor.fit(xs_train_data, y_train_data)
 predictions_all = regressor.predict(xs_test_data)
 
+regressor.predict(xs_test_data[1])
+xs_test_data[1]
 # Compute the performance metrics
 errors = abs(predictions_all - y_test_data)
 print('Average model error:', round(np.mean(errors), 2))
